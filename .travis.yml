@@ -19,7 +19,7 @@ script:
   # - docker build -t udagram-reverseproxy .
   - docker-compose -f docker-compose-build.yaml build --parallel
   - docker tag udagram-api-feed alliwene/udagram-api-feed:latest
-  - docker tag udagram-frontend alliwene/udagram-frontend:local
+  - docker tag udagram-frontend alliwene/udagram-frontend:latest
   - docker tag udagram-api-user alliwene/udagram-api-user:latest
   - docker tag reverseproxy alliwene/reverseproxy:latest
 
