@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
+metadata:
+  name: env-config
 data:
   AWS_BUCKET: my-micro-bucket-1234
   AWS_PROFILE: udacity
   AWS_REGION: us-east-1
   JWT_SECRET: testing
-  POSTGRESS_DB: postgres
-  POSTGRESS_HOST: database-1.cguhwzpw8zrr.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.cdlh9c9ghdab.us-east-1.rds.amazonaws.com
   URL: http://localhost:8100  
-metadata:
-  name: env-config
